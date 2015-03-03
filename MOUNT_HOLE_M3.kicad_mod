@@ -1,0 +1,14 @@
+(module MOUNT_HOLE_M3 (layer F.Cu) (tedit 54C6498B)
+  (tags "MOUNT HOLE FASTENER SCREW")
+  (attr virtual)
+  (fp_text reference H1 (at 0 -1) (layer F.SilkS) hide
+    (effects (font (size 0 0)))
+  )
+  (fp_text value MOUNT_HOLE (at 0 1) (layer F.SilkS) hide
+    (effects (font (size 0 0)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.1) (layers *.Cu *.Mask)
+    (zone_connect 2))
+  (pad 1 connect circle (at 0 0) (size 5.5 5.5) (layers F.Cu F.Mask)
+    (zone_connect 2))
+)
